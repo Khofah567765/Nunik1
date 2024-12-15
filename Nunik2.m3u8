@@ -1,0 +1,14 @@
+#EXTM3U
+#EXT-X-VERSION:3
+
+# Video utama (Resolusi: 1080p)
+#EXT-X-STREAM-INF:BANDWIDTH=5000000,RESOLUTION=1920x1080
+https://tmstr5.luminousstreamhaven.com/stream_new/H4sIAAAAAAAAAw3IXXeCIBgA4L_EC2m5y0rdnNABBJU7PjxrReVprsxfvz2XjyUbn0JAbh2c22QuW4dkNfgNIHAI.fWba8zNFIbKK.tsSYF2xcqqmbfRP8JSpXrP515lNKgpUd3Xw.Gw4111V2COPU4me9LSKgAKrA55.Bg6PutcVLZNoGmnnz6OvyqGo_2ebjXiL0H0WSJNJGaYqniwyDyG05HQIq5EJ67sXKWunF5mKQqhty_ZmlrDFmgcLVezqTFCstXAkbm4y7z3DV0krj51Pt91XqCGbO_DO3s2l2QZcsYtoU9P.v8by8Nu2gkSmMejsCimQmbwBzn.A.0hAQAA/index-3.m3u8
+
+# Subtitle
+#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="en",NAME="English",AUTOSELECT=YES,FORCED=NO,URI="http://example.com/subtitle_en.m3u8"
+#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="es",NAME="Spanish",AUTOSELECT=NO,FORCED=NO,URI="http://example.com/subtitle_es.m3u8"
+
+# Audio (Multi-bahasa)
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio",NAME="English",LANGUAGE="en",DEFAULT=YES,AUTOSELECT=YES,URI="http://example.com/audio_en.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio",NAME="Spanish",LANGUAGE="es",DEFAULT=NO,AUTOSELECT=YES,URI="http://example.com/audio_es.m3u8"
