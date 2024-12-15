@@ -8,7 +8,3 @@ https://tmstr5.luminousstreamhaven.com/stream_new/H4sIAAAAAAAAAw3IXXeCIBgA4L_EC2
 # Subtitle
 #EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="en",NAME="English",AUTOSELECT=YES,FORCED=NO,URI="http://example.com/subtitle_en.m3u8"
 #EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="es",NAME="Spanish",AUTOSELECT=NO,FORCED=NO,URI="http://example.com/subtitle_es.m3u8"
-
-# Audio (Multi-bahasa)
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio",NAME="English",LANGUAGE="en",DEFAULT=YES,AUTOSELECT=YES,URI="http://example.com/audio_en.m3u8"
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio",NAME="Spanish",LANGUAGE="es",DEFAULT=NO,AUTOSELECT=YES,URI="http://example.com/audio_es.m3u8"
